@@ -17,7 +17,7 @@ app.get('/hello/:name/', function(req, res) {
 
 app.get('/', function(req, res) {
     res.setHeader('Content-Type', 'text/plain');
-    res.send('Welcome to the Home page \n\n 1- http://localhost:8080/ : Home Page  \n 2- http://localhost:8080/hello/[Your Name] : Hello + Your name will be display with a Button which display data \n 3- http://localhost:8080/metrics.json : Somme data will be display ' );
+    res.send('Welcome to the Home page \n\n 1- http://localhost:8080/ : Home Page   \n 2- http://localhost:8080/hello/[Your Name] : Hello + Your name will be display with a Button which display data \n 3- http://localhost:8080/metrics.json : Somme data will be display ' );
 });
 
 
