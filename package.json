@@ -1,0 +1,19 @@
+{
+  "name": "lab-2-express",
+  "version": "0.1.0",
+  "description": "Express Module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Deep PATEL",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "jquery": "^3.4.1",
+    "nodemon": "^2.0.1",
+    "popper": "^1.0.1"
+  }
+}
